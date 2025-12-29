@@ -1,9 +1,9 @@
 # tmux
 tmux config
 ## instructions
-create symlink for .tmux.conf
+run shell script to load dependencies for this environment 
 ```
-ln -s ~/<project-directory>/tmux.conf ~/.tmux/.conf
+./<path_to_project>/tmux_conf.sh
 ```
 install after attaching to new session
 
