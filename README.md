@@ -1,16 +1,15 @@
-# tmux
-tmux config
-## instructions
-run shell script to load dependencies for this environment 
+# Tmux
+Tmux config should be cloned into ~/.config/tmux and .tmux.conf needs to be symlinked to ~/.tmux.conf
+## Instructions
+Use builder script for initial setup to load dependencies for this environment. 
 ```
-./<path_to_project>/tmux_conf.sh
+cd ~/.config/tmux/
+./builder.sh
 ```
-install after attaching to new session
-
+---
+#### Install after attaching to new session
 ```prefix``` ```ctrl+I```
-
-save
-
+#### Save sessions
 ```prefix``` ```ctrl+s```
-
-
+#### Restore sessions
+```prefix``` ```ctrl+r```
