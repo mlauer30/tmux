@@ -1,5 +1,5 @@
 # Tmux
-Tmux config should be cloned into ~/.config/tmux and .tmux.conf needs to be symlinked to ~/.tmux.conf
+Tmux config should be cloned into ~/.config/tmux and tmux.conf needs to be symlinked to ~/.tmux.conf
 ## Instructions
 Use builder script for initial setup to load dependencies for this environment. 
 ```
