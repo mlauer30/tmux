@@ -5,6 +5,7 @@ Use builder script for initial setup to load dependencies for this environment.
 ```
 cd ~/.config/tmux/
 ./builder.sh
+tmux source-file ~/.tmux.conf/
 ```
 ---
 #### Install after attaching to new session
